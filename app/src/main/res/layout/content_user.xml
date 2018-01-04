@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.asus.advertiser.UserActivity"
+    tools:showIn="@layout/activity_user">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingTop="40dp">
+
+        <Button
+            android:id="@+id/user_profile"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/user_profile"
+            android:textStyle="bold"
+            app:layout_anchor="@+id/include"
+            app:layout_anchorGravity="top|center"
+            tools:layout_editor_absoluteY="160dp" />
+
+        <Button
+            android:id="@+id/user_displayname"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/user_displayname"
+            android:textStyle="bold"
+            app:layout_anchor="@+id/include"
+            app:layout_anchorGravity="top|center"
+            tools:layout_editor_absoluteY="160dp" />
+
+        <Button
+            android:id="@+id/user_email"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/user_email"
+            android:textStyle="bold"
+            app:layout_anchor="@+id/include"
+            app:layout_anchorGravity="top|center"
+            tools:layout_editor_absoluteY="160dp" />
+
+        <Button
+            android:id="@+id/user_phone"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/user_phone"
+            android:textStyle="bold"
+            app:layout_anchor="@+id/include"
+            app:layout_anchorGravity="top|center"
+            tools:layout_editor_absoluteY="160dp" />
+
+        <Button
+            android:id="@+id/user_password"
+            style="?android:textAppearanceSmall"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="@string/user_password"
+            android:textStyle="bold"
+            app:layout_anchor="@+id/include"
+            app:layout_anchorGravity="top|center"
+            tools:layout_editor_absoluteY="160dp" />
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>
